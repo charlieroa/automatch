@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="33" height="27">
+    <defs>
+        <filter id="Trazado_1763" x="8.541" y="6.573" width="15.861" height="15.861" filterUnits="userSpaceOnUse">
+            <feOffset dy="1"/>
+            <feGaussianBlur stdDeviation="1" result="blur"/>
+            <feFlood flood-color="#00b794" flood-opacity=".302"/>
+            <feComposite operator="in" in2="blur"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <style>
+            .cls-2{fill:#00b794}
+        </style>
+    </defs>
+    <g id="Grupo_1700" data-name="Grupo 1700" transform="translate(-1153.917 -113)">
+        <g id="Grupo_1702" data-name="Grupo 1702" transform="translate(1157.241 118.287)">
+            <g id="Grupo_1700-2" data-name="Grupo 1700">
+                <path id="Trazado_1762" data-name="Trazado 1762" d="M12.964 25.433c-4.728 0-9.438-3.315-12.281-6.447a2.637 2.637 0 0 1 0-3.541C3.558 12.279 8.353 8.941 13.147 9c4.8-.071 9.589 3.278 12.467 6.442a2.638 2.638 0 0 1 0 3.542c-2.882 3.171-7.685 6.541-12.484 6.448zm.023-14.79c-4.215 0-8.482 3.037-11.087 5.9a1 1 0 0 0 0 1.336c2.633 2.9 6.982 5.976 11.232 5.9 4.289.1 8.628-3 11.265-5.907a1 1 0 0 0 0-1.336c-2.606-2.865-6.875-5.9-11.088-5.9h-.321z" transform="translate(.001 -9)" style="fill:#020c3b"/>
+            </g>
+            <g transform="translate(-3.322 -5.284)" style="filter:url(#Trazado_1763)" id="Grupo_1701" data-name="Grupo 1701">
+                <path id="Trazado_1763-2" data-name="Trazado 1763" class="cls-2" d="M19.93 24.859a4.93 4.93 0 0 1 0-9.861 4.93 4.93 0 0 1 4.929 4.928 4.93 4.93 0 0 1-4.93 4.929zm0-8.217a3.287 3.287 0 0 0 0 6.574 3.287 3.287 0 0 0 3.287-3.286 3.286 3.286 0 0 0-3.286-3.285zm4.108 3.288z" transform="translate(-3.46 -6.43)"/>
+            </g>
+        </g>
+        <g id="Elipse_226" data-name="Elipse 226" transform="translate(1181.917 113)" style="stroke:#f2d44c;stroke-width:3px;fill:none">
+            <circle cx="2.5" cy="2.5" r="2.5" style="stroke:none"/>
+            <circle cx="2.5" cy="2.5" r="1" style="fill:none"/>
+        </g>
+        <circle id="Elipse_227" data-name="Elipse 227" class="cls-2" cx="2" cy="2" r="2" transform="translate(1153.917 115)"/>
+        <circle id="Elipse_229" data-name="Elipse 229" cx="2" cy="2" r="2" transform="translate(1158.917 136)" style="fill:#0076fd"/>
+    </g>
+</svg>

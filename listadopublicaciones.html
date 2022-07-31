@@ -1,0 +1,513 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Bitter Mobile Template</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/mobile.css">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover" />
+    <meta name="description" content="Bitter Mobile Template">
+    <meta name="keywords" content="bootstrap, mobile template, Bootstrap 5, mobile, html, responsive" />
+    <link rel="icon" type="image/png" href="assets/img/icon/favicon.png" sizes="32x32">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/icon/192x192.png">
+    <script src="https://kit.fontawesome.com/7252c1d851.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- Page loading -->
+    <div id="loading">
+        <div class="spinner-grow"></div>
+    </div>
+    <!-- * Page loading -->
+
+    
+    <!-- App Header -->
+    <div class="appHeader">
+        <div class="left">
+            <a href="#appSidebar" class="icon" data-bs-toggle="offcanvas">
+                <i class="icon ion-ios-menu"></i>
+            </a>
+        </div>
+        <div class="pageTitle">
+            <img src="assets/img/logo.png" alt="Bitter" class="image">
+        </div>      
+    </div>
+    <!-- searchBox -->
+    <div id="searchBox">
+        <form>
+            <a href="javascript:;" class="toggleSearchbox closeButton">
+                <i class="icon ion-ios-close-circle"></i>
+            </a>
+        </form>
+         <div class="container margin-search">         
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseZero" aria-expanded="false" aria-controls="flush-collapseTwo">
+                       Marca
+                      </button>
+                    </h2>
+                    <div id="flush-collapseZero" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">
+                          <div class="row">
+                              <div class="col-6">
+                                  <select class="form-select" aria-label="Default select example">
+                                      <option selected>Audi</option>
+                                      <option value="1">Bmw</option>
+                                    
+                                    </select> 
+                                     </div>
+                              <div class="col-6">
+                                  <select class="form-select" aria-label="Default select example">
+                                      <option selected>Seleccione el modelo</option>
+                                      <option value="1">A1</option>
+                                      <option value="2">A2</option>                                    
+                                    </select>      </div>
+                          </div>
+                       </div>
+                  </div>
+                  </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        Precio
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <div class="row">
+                            <div class="col-6">
+                                <input type="text id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock" placeholder="Precio min">
+                            </div>
+                            <div class="col-6">
+                                <input type="text id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock"  placeholder="Precio max">
+                            </div>
+                        </div>
+                     </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                     Año
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <div class="row">
+                            <div class="col-6">
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Desde</option>
+                                    <option value="1">2015</option>
+                                    <option value="2">2016</option>
+                                    <option value="3">2017</option>
+                                  </select> 
+                                   </div>
+                            <div class="col-6">
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Hasta</option>
+                                    <option value="1">2015</option>
+                                    <option value="2">2016</option>
+                                    <option value="3">2017</option>
+                                  </select>      </div>
+                        </div>
+                     </div>
+                </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      kilometros
+                      </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">
+                          <div class="row">
+                              <div class="col-6">
+                                <input type="text id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock" placeholder="Min">
+                        
+                                     </div>
+                              <div class="col-6">
+                                <input type="text id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock" placeholder="Max">                        
+                                    </div>
+                          </div>
+                       </div>
+                  </div>
+                  </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseTwo">
+                       Ubicación
+                      </button>
+                    </h2>
+                    <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">
+                          <div class="row">
+                              <div class="col-12">
+                                  <select class="form-select" aria-label="Default select example">
+                                      <option selected>Bogotá</option>
+                                      <option value="1">medellin</option>
+                                      <option value="2">Cali</option>                                     
+                                    </select> 
+                                     </div>
+                           
+                          </div>
+                       </div>
+                  </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseTwo">
+                       Transmision
+                      </button>
+                    </h2>
+                    <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">
+                          <div class="row">
+                              <div class="col-12">
+                                  <select class="form-select" aria-label="Default select example">
+                                      <option selected>Automatica</option>
+                                      <option value="1">manual</option>                                                               
+                                    </select> 
+                                     </div>
+                           
+                          </div>
+                       </div>
+                  </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseTwo">
+                       Combustible
+                      </button>
+                    </h2>
+                    <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                      <div class="accordion-body">
+                          <div class="row">
+                              <div class="col-12">
+                                  <select class="form-select" aria-label="Default select example">
+                                      <option selected>Gasolina</option>
+                                      <option value="1">Eléctrico</option>    
+                                      <option value="1">Hibrido</option>   
+                                      <option value="1">Diésel</option>  
+                                      <option value="1">Gas y gasolina</option>                                                              
+                                    </select> 
+                                     </div>
+                           
+                          </div>
+                       </div>
+                  </div>
+                  </div>
+              
+              
+              </div>
+         </div>
+    </div>
+    <div id="docfiltrar">
+        <form>
+            <a href="javascript:;" class="docfiltrar closeButton">
+                <i class="icon ion-ios-close-circle"></i>
+            </a>
+        </form>
+        <div class="container margin-search">
+            <div class="listView iconed">
+                <a href="#" class="listItem">              
+                    <div class="text">
+                        <div>Más relevante</strong>                           
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="listItem">           
+                    <div class="text">
+                        <div>
+                            <strong>Menor precio</strong>                          
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="listItem">         
+                    <div class="text">
+                        <div>
+                            <strong>Mayor precio</strong>                          
+                        </div>
+                    </div>
+                </a>                  
+            </div>
+        </div>
+      
+   </div>
+    <!-- * searchBox -->
+    <!-- * App Header -->
+
+    <!-- App Capsule -->
+    <div id="appCapsule">
+        
+
+        <div class="appContent mt-7">
+            <div class="container">
+                <div class="row">
+                    <div class="col-5">
+                        <i class="fas fa-sort-amount-down"></i>
+                       <p class="centrar-textos filtros toggleSearchbox">Ordenar</p>
+                    </div>
+                    <div class="col-2">
+                        <p  class="centrar-textos">|</p>
+                     </div>
+                    <div class="col-5">
+                        <i class="fas fa-sort"></i>
+                       <p  class="centrar-textos filtros" id="filtrar">Filtrar</p>
+                    </div>
+                </div>
+            </div>
+            <div class="divider  mb-1 mt-1"></div>
+
+            <div class="sectionTitle mb-2 pt-1">              
+                <div class="title">
+                    <h1>Resultado de búsqueda</h1>                 
+                </div>
+            </div>
+
+            <!-- post list -->
+            <div class="row">
+                <!-- item -->
+                <div class="col-6">
+                    <a href="publicacion.html" class="postItem">
+                        <div class="imageWrapper">
+                            <img src="assets/img/sample/photo3.jpg" alt="image" class="image">           
+                        </div>
+                        <h6>Bmw 318i 2.0</h6>
+                        <h2 class="title">$44.500.000</h2>
+                        <p class="title-date title-date-space">2011 - 105.000km</p>
+                   
+                    </a>
+                </div>
+                <!-- * item -->
+                <!-- item -->
+                <div class="col-6">
+                    <a href="publicacion.html" class="postItem">
+                        <div class="imageWrapper">
+                            <img src="assets/img/sample/photo3.jpg" alt="image" class="image">                   
+                        </div>
+                        <h6>Bmw 318i 2.0</h6>
+                        <h2 class="title">$44.500.000</h2>
+                        <p class="title-date title-date-space">2011 - 105.000km</p>
+                    </a>
+                </div>
+                <!-- * item -->
+                <!-- item -->
+                <div class="col-6">
+                    <a href="publicacion.html" class="postItem">
+                        <div class="imageWrapper">
+                            <img src="assets/img/sample/photo3.jpg" alt="image" class="image">                  
+                        </div>
+                        <h6>Bmw 318i 2.0</h6>
+                        <h2 class="title">$44.500.000</h2>
+                        <p class="title-date title-date-space">2011 - 105.000km</p>
+                    </a>
+                </div>
+                <!-- * item -->
+                <!-- item -->
+                <div class="col-6">
+                    <a href="publicacion.html" class="postItem">
+                        <div class="imageWrapper">
+                            <img src="assets/img/sample/photo3.jpg" alt="image" class="image">                         
+                        </div>
+                        <h6>Bmw 318i 2.0</h6>
+                        <h2 class="title">$44.500.000</h2>
+                        <p class="title-date title-date-space">2011 - 105.000km</p>
+                    </a>
+                </div>
+                <!-- * item -->
+                <div class="col-6">
+                    <a href="publicacion.html" class="postItem">
+                        <div class="imageWrapper">
+                            <img src="assets/img/sample/photo3.jpg" alt="image" class="image">                  
+                        </div>
+                        <h6>Bmw 318i 2.0</h6>
+                        <h2 class="title">$44.500.000</h2>
+                        <p class="title-date title-date-space">2011 - 105.000km</p>
+                    </a>
+                </div>
+                <!-- * item -->
+                <!-- item -->
+                <div class="col-6">
+                    <a href="publicacion.html" class="postItem">
+                        <div class="imageWrapper">
+                            <img src="assets/img/sample/photo3.jpg" alt="image" class="image">                         
+                        </div>
+                        <h6>Bmw 318i 2.0</h6>
+                        <h2 class="title">$44.500.000</h2>
+                        <p class="title-date title-date-space">2011 - 105.000km</p>
+                    </a>
+                </div>
+            </div>
+            <!-- * post list -->
+
+          
+
+         
+
+        </div>
+
+     
+
+
+    </div>
+    <!-- * appCapsule -->
+
+
+
+
+    <!-- App Bottom Menu -->
+    <div class="appBottomMenu">
+        <div class="item active">
+            <a href="index.html">
+                <p>
+                    <i class="fab fa-discourse"></i>
+                    <span>Home</span>
+                </p>
+            </a>
+        </div>
+        <div class="item">
+            <a href="pages.html">
+                <p>
+                    <i class="fas fa-car"></i>
+                    <span>Publicar</span>
+                </p>
+            </a>
+        </div>      
+        <div class="item">
+            <a href="search.html">
+                <p>
+                    <i class="fas fa-fire-alt"></i>
+                    <span>Cotizar</span>
+                </p>
+            </a>
+        </div>
+        <div class="item">
+            <a href="#appSidebar" class="icon" data-bs-toggle="offcanvas">
+                <p>
+                    <i class="fab fa-creative-commons-by"></i>
+                    <span>Mi cuenta</span>
+                </p>
+            </a>
+        </div>
+    </div>
+    <!-- * App Bottom Menu -->
+
+    <!-- Sidebar Menu -->
+    <div class="offcanvas offcanvas-start sidebarWrapper" tabindex="-1" id="appSidebar">
+        <div class="offcanvas-body">
+            <nav class="sidebar">
+                <div class="profilebox">
+                    <img src="assets/img/sample/avatar.jpg" alt="avatar" class="avatar">
+                    <h2 class="title">Jane Antunes</h2>
+                    <h5 class="lead">
+                        <i class="icon ion-ios-pin me-1"></i>
+                        Chicago
+                    </h5>
+                    <div class="sidebutton">
+                        <a href="#">
+                            <i class="icon ion-ios-settings"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="sidebarGroup">
+                    <ul class="sidebarMenu">
+                        <li>
+                            <a href="social-home.html">
+                                <i class="icon ion-ios-people"></i>
+                                Social
+                            </a>
+                        </li>
+                        <li>
+                            <a href="social-chat.html">
+                                <i class="icon ion-ios-chatboxes"></i>
+                                Chat
+                            </a>
+                        </li>
+                        <li>
+                            <a href="pages.html">
+                                <i class="icon ion-ios-apps"></i>
+                                Pages
+                            </a>
+                        </li>
+                        <li>
+                            <a href="components.html">
+                                <i class="icon ion-ios-analytics"></i>
+                                Components
+                            </a>
+                        </li>
+                        <li>
+                            <a href="blog-home.html">
+                                <i class="icon ion-ios-book"></i>
+                                Magazine - Blog
+                            </a>
+                        </li>
+                        <li>
+                            <a href="page-login.html">
+                                <i class="icon ion-ios-lock"></i>
+                                Login
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="sidebarGroup">
+                    <ul class="sidebarMenu">
+                        <li class="title">Online</li>
+                        <li>
+                            <a href="#">
+                                <img src="assets/img/sample/avatar2.jpg" alt="avatar" class="avatar">
+                                Guiying K.
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="assets/img/sample/avatar3.jpg" alt="avatar" class="avatar">
+                                Kita Chihoko
+                                <span class="badge badge-primary">2</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="assets/img/sample/avatar4.jpg" alt="avatar" class="avatar">
+                                Leonetta Lloyd
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="assets/img/sample/avatar5.jpg" alt="avatar" class="avatar">
+                                Lizzie Rose
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="assets/img/sample/avatar6.jpg" alt="avatar" class="avatar">
+                                Kari Granleese
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </nav>
+        </div>
+    </div>
+    <!-- * Sidebar Menu -->
+
+
+    <!-- ///////////// Js Files ////////////////////  -->
+    <!-- Bootstrap-->
+
+    <script src="assets/js/lib/bootstrap.bundle.min.js"></script>
+    <!-- Splide -->
+    <script src="assets/js/plugins/splide/splide.min.js"></script>
+    <!-- Main Js File -->
+    <script src="assets/js/app.js"></script>
+
+
+</body>
+
+</html>
